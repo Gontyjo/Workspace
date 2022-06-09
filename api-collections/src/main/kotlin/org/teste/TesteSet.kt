@@ -8,6 +8,7 @@ fun main() {
     val funcionariosSet1 = setOf(funcionario1, funcionario2)
     val funcionariosSet2 = setOf(funcionario3)
 
+    println("INITIAL")
     val resultUnion = funcionariosSet1.union(funcionariosSet2)
     resultUnion.forEach { println(it) }
 
@@ -19,4 +20,5 @@ fun main() {
     println("INTERSECT")
     val resultIntersect = funcionariosSet3.intersect(funcionariosSet2)
     resultIntersect.forEach { println(it) }
+
 }
